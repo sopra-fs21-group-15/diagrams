@@ -1,0 +1,80 @@
+Screen Diagram:
+
+- Logout Button in allen Screens am gleichen Ort zur einfacheren Orientierung
+- Invite/Friend Request/etc. Button alle am gleichen Ort bsp. unter Profilbild
+- Hat das Profil eine Match History?
+
+Allgemein:
+-----------------------------------------------------
+Player status: online, offline, inGame, chilling xD
+
+Restrictions for user name: unique, max. 15 chars,
+		no special signs, letters and numbers
+
+Alternative to friends -> Labels, not symetrical
+
+Default Settings: 4 Rounds, min. 3 players to start - max. 10 players
+
+Screens:
+-----------------------------------------------------
+Dinge die für jeden Screen gebraucht werden:
+
+Screen 1 (Log in):
+- from M1
+
+Screen 2 (Registration):
+- from M1
+
+Screen 3 (Overview Screen): (right after we log in)
+- list of all lobbies (~sorted), can join,
+	infos (owner, how many people are there)
+- friendlist, their status, can view their profil, join their
+	current lobby (only when in chilling)
+	sorted by (chilling, online, inGame, offline)
+- view own profil
+- logout
+- Create a new Lobby
+- HoverTool: Lobby name (default lobby + id), Rounds, Game Mode, etc.
+- (extra) My Profil Picture
+
+Screen 4 (Profil Screen (Own)):
+- Username, Name, Games Played (just the total amount), (maybe) wins
+- (nice to have) Own message
+- go to edit own profil
+- go back to lobby
+- go to Friend Request (Mailbox)
+- friendlist, their status, can view their profil, join their
+	current lobby (only when in chilling) + kicking a friend
+	sorted by (chilling, online, inGame, offline)
+- search bar for friends -> add this friend
+
+Screen 5 (Friend Request - Mailbox):
+- queue FIFO of all request send
+- can accept or decline
+- add all function
+- go back to own profil
+
+Screen 6 (Profil Screen (someone else)):
+- Username, Name, Games Played (just the total amount), (maybe) wins
+- add this user as a friend
+- go back to lobby
+
+Screen 7 (Create Lobby):
+- functions of a lobby (private/public, Lobbyname, max. Player, #Rounds, Gamemode)
+- create this lobby
+- go back to overview
+
+Screen 8 (Lobby):
+- kick a player (owner only), invite player
+- change owner
+- press ready (owner only, when enough player -> timer until it starts)
+- lobby information
+- chat
+- back to overview
+
+Screen 9 (In Game):
+- Leaderboard
+- leave to overview
+- chat
+- change colour
+- change size
